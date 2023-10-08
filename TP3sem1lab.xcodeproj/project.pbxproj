@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BFCC8072AD314B30072481D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BFCC8062AD314B30072481D /* main.cpp */; };
-		2BFCC8162AD314DF0072481D /* Stationery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BFCC80D2AD314DF0072481D /* Stationery.cpp */; };
-		2BFCC8172AD314DF0072481D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BFCC80E2AD314DF0072481D /* main.cpp */; };
-		2BFCC8182AD314DF0072481D /* BookShop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BFCC80F2AD314DF0072481D /* BookShop.cpp */; };
-		2BFCC8192AD314DF0072481D /* Book.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BFCC8102AD314DF0072481D /* Book.cpp */; };
-		2BFCC81A2AD314DF0072481D /* TextBook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BFCC8122AD314DF0072481D /* TextBook.cpp */; };
+		2B4529412AD3179600E5F1F4 /* Book1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B45293F2AD3179600E5F1F4 /* Book1.cpp */; };
+		2B4529442AD317E300E5F1F4 /* BookShop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B4529422AD317E300E5F1F4 /* BookShop.cpp */; };
+		2B4529472AD317FA00E5F1F4 /* Stationery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B4529452AD317FA00E5F1F4 /* Stationery.cpp */; };
+		2B45294A2AD3180900E5F1F4 /* TextBook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B4529482AD3180900E5F1F4 /* TextBook.cpp */; };
+		2B45294C2AD318AE00E5F1F4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B45294B2AD318AE00E5F1F4 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,17 +27,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2B45293F2AD3179600E5F1F4 /* Book1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Book1.cpp; sourceTree = "<group>"; };
+		2B4529402AD3179600E5F1F4 /* Book1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Book1.hpp; sourceTree = "<group>"; };
+		2B4529422AD317E300E5F1F4 /* BookShop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BookShop.cpp; sourceTree = "<group>"; };
+		2B4529432AD317E300E5F1F4 /* BookShop.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BookShop.hpp; sourceTree = "<group>"; };
+		2B4529452AD317FA00E5F1F4 /* Stationery.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stationery.cpp; sourceTree = "<group>"; };
+		2B4529462AD317FA00E5F1F4 /* Stationery.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stationery.hpp; sourceTree = "<group>"; };
+		2B4529482AD3180900E5F1F4 /* TextBook.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TextBook.cpp; sourceTree = "<group>"; };
+		2B4529492AD3180900E5F1F4 /* TextBook.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TextBook.hpp; sourceTree = "<group>"; };
+		2B45294B2AD318AE00E5F1F4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2BFCC8032AD314B20072481D /* TP3sem1lab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TP3sem1lab; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BFCC8062AD314B30072481D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		2BFCC80D2AD314DF0072481D /* Stationery.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Stationery.cpp; path = "../../ТП3курс1/Stationery.cpp"; sourceTree = "<group>"; };
-		2BFCC80E2AD314DF0072481D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../ТП3курс1/main.cpp"; sourceTree = "<group>"; };
-		2BFCC80F2AD314DF0072481D /* BookShop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BookShop.cpp; path = "../../ТП3курс1/BookShop.cpp"; sourceTree = "<group>"; };
-		2BFCC8102AD314DF0072481D /* Book.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Book.cpp; path = "../../ТП3курс1/Book.cpp"; sourceTree = "<group>"; };
-		2BFCC8112AD314DF0072481D /* Stationery.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Stationery.hpp; path = "../../ТП3курс1/Stationery.hpp"; sourceTree = "<group>"; };
-		2BFCC8122AD314DF0072481D /* TextBook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TextBook.cpp; path = "../../ТП3курс1/TextBook.cpp"; sourceTree = "<group>"; };
-		2BFCC8132AD314DF0072481D /* TextBook.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TextBook.hpp; path = "../../ТП3курс1/TextBook.hpp"; sourceTree = "<group>"; };
-		2BFCC8142AD314DF0072481D /* BookShop.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BookShop.hpp; path = "../../ТП3курс1/BookShop.hpp"; sourceTree = "<group>"; };
-		2BFCC8152AD314DF0072481D /* Book.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Book.hpp; path = "../../ТП3курс1/Book.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +53,15 @@
 		2BFCC7FA2AD314B20072481D = {
 			isa = PBXGroup;
 			children = (
+				2B45294B2AD318AE00E5F1F4 /* main.cpp */,
+				2B4529482AD3180900E5F1F4 /* TextBook.cpp */,
+				2B4529492AD3180900E5F1F4 /* TextBook.hpp */,
+				2B4529452AD317FA00E5F1F4 /* Stationery.cpp */,
+				2B4529462AD317FA00E5F1F4 /* Stationery.hpp */,
+				2B4529422AD317E300E5F1F4 /* BookShop.cpp */,
+				2B4529432AD317E300E5F1F4 /* BookShop.hpp */,
+				2B45293F2AD3179600E5F1F4 /* Book1.cpp */,
+				2B4529402AD3179600E5F1F4 /* Book1.hpp */,
 				2BFCC8052AD314B30072481D /* TP3sem1lab */,
 				2BFCC8042AD314B20072481D /* Products */,
 			);
@@ -71,16 +78,6 @@
 		2BFCC8052AD314B30072481D /* TP3sem1lab */ = {
 			isa = PBXGroup;
 			children = (
-				2BFCC8102AD314DF0072481D /* Book.cpp */,
-				2BFCC8152AD314DF0072481D /* Book.hpp */,
-				2BFCC80F2AD314DF0072481D /* BookShop.cpp */,
-				2BFCC8142AD314DF0072481D /* BookShop.hpp */,
-				2BFCC80E2AD314DF0072481D /* main.cpp */,
-				2BFCC80D2AD314DF0072481D /* Stationery.cpp */,
-				2BFCC8112AD314DF0072481D /* Stationery.hpp */,
-				2BFCC8122AD314DF0072481D /* TextBook.cpp */,
-				2BFCC8132AD314DF0072481D /* TextBook.hpp */,
-				2BFCC8062AD314B30072481D /* main.cpp */,
 			);
 			path = TP3sem1lab;
 			sourceTree = "<group>";
@@ -142,12 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BFCC8072AD314B30072481D /* main.cpp in Sources */,
-				2BFCC8162AD314DF0072481D /* Stationery.cpp in Sources */,
-				2BFCC8182AD314DF0072481D /* BookShop.cpp in Sources */,
-				2BFCC8172AD314DF0072481D /* main.cpp in Sources */,
-				2BFCC8192AD314DF0072481D /* Book.cpp in Sources */,
-				2BFCC81A2AD314DF0072481D /* TextBook.cpp in Sources */,
+				2B4529472AD317FA00E5F1F4 /* Stationery.cpp in Sources */,
+				2B45294C2AD318AE00E5F1F4 /* main.cpp in Sources */,
+				2B4529442AD317E300E5F1F4 /* BookShop.cpp in Sources */,
+				2B45294A2AD3180900E5F1F4 /* TextBook.cpp in Sources */,
+				2B4529412AD3179600E5F1F4 /* Book1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
