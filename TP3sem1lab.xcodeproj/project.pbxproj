@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		2BFCC8072AD314B30072481D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BFCC8062AD314B30072481D /* main.cpp */; };
+		2BFCC8162AD314DF0072481D /* Stationery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BFCC80D2AD314DF0072481D /* Stationery.cpp */; };
+		2BFCC8172AD314DF0072481D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BFCC80E2AD314DF0072481D /* main.cpp */; };
+		2BFCC8182AD314DF0072481D /* BookShop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BFCC80F2AD314DF0072481D /* BookShop.cpp */; };
+		2BFCC8192AD314DF0072481D /* Book.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BFCC8102AD314DF0072481D /* Book.cpp */; };
+		2BFCC81A2AD314DF0072481D /* TextBook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BFCC8122AD314DF0072481D /* TextBook.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,15 @@
 /* Begin PBXFileReference section */
 		2BFCC8032AD314B20072481D /* TP3sem1lab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TP3sem1lab; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BFCC8062AD314B30072481D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2BFCC80D2AD314DF0072481D /* Stationery.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Stationery.cpp; path = "../../ТП3курс1/Stationery.cpp"; sourceTree = "<group>"; };
+		2BFCC80E2AD314DF0072481D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../ТП3курс1/main.cpp"; sourceTree = "<group>"; };
+		2BFCC80F2AD314DF0072481D /* BookShop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BookShop.cpp; path = "../../ТП3курс1/BookShop.cpp"; sourceTree = "<group>"; };
+		2BFCC8102AD314DF0072481D /* Book.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Book.cpp; path = "../../ТП3курс1/Book.cpp"; sourceTree = "<group>"; };
+		2BFCC8112AD314DF0072481D /* Stationery.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Stationery.hpp; path = "../../ТП3курс1/Stationery.hpp"; sourceTree = "<group>"; };
+		2BFCC8122AD314DF0072481D /* TextBook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TextBook.cpp; path = "../../ТП3курс1/TextBook.cpp"; sourceTree = "<group>"; };
+		2BFCC8132AD314DF0072481D /* TextBook.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TextBook.hpp; path = "../../ТП3курс1/TextBook.hpp"; sourceTree = "<group>"; };
+		2BFCC8142AD314DF0072481D /* BookShop.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BookShop.hpp; path = "../../ТП3курс1/BookShop.hpp"; sourceTree = "<group>"; };
+		2BFCC8152AD314DF0072481D /* Book.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Book.hpp; path = "../../ТП3курс1/Book.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +71,15 @@
 		2BFCC8052AD314B30072481D /* TP3sem1lab */ = {
 			isa = PBXGroup;
 			children = (
+				2BFCC8102AD314DF0072481D /* Book.cpp */,
+				2BFCC8152AD314DF0072481D /* Book.hpp */,
+				2BFCC80F2AD314DF0072481D /* BookShop.cpp */,
+				2BFCC8142AD314DF0072481D /* BookShop.hpp */,
+				2BFCC80E2AD314DF0072481D /* main.cpp */,
+				2BFCC80D2AD314DF0072481D /* Stationery.cpp */,
+				2BFCC8112AD314DF0072481D /* Stationery.hpp */,
+				2BFCC8122AD314DF0072481D /* TextBook.cpp */,
+				2BFCC8132AD314DF0072481D /* TextBook.hpp */,
 				2BFCC8062AD314B30072481D /* main.cpp */,
 			);
 			path = TP3sem1lab;
@@ -120,6 +143,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BFCC8072AD314B30072481D /* main.cpp in Sources */,
+				2BFCC8162AD314DF0072481D /* Stationery.cpp in Sources */,
+				2BFCC8182AD314DF0072481D /* BookShop.cpp in Sources */,
+				2BFCC8172AD314DF0072481D /* main.cpp in Sources */,
+				2BFCC8192AD314DF0072481D /* Book.cpp in Sources */,
+				2BFCC81A2AD314DF0072481D /* TextBook.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
