@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 #include <string>
+#include <iostream>
 using namespace std;
 
 
@@ -20,8 +21,8 @@ public:
     explicit BookShop(const BookShop& Ref, int E = 5);
     explicit BookShop(int num);
     ~BookShop();
-    void set();
-    void get();
+    void SetItems();
+    void GetItems();
     bool is_empty();
     void add(int num);
     void show();

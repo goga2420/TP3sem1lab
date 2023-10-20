@@ -6,3 +6,8 @@
 //
 
 #include "BookShop.hpp"
+
+
+void BookShop::SetItems(){
+    cin >> *this;
+}

@@ -26,16 +26,19 @@
 
 class Book : protected BookShop{
 public:
-    char title[20];
-    char author[20];
+    
+    Book();
+    Book(string title, string author, int year, string annotation, string genre, int pages, float price);
+  
+private:
+    string title;
+    string author;
     int year;
-    char annotation[50];
-    char genre[20];
+    string annotation;
+    string genre;
     int pages;
     float price;
-
-    Book(char title[20], char author[20], int year, char annotation[50], char genre[20], int pages, float price);
-    //ghbdtndkjd
+    
 };
 #endif /* Book_hpp */
 

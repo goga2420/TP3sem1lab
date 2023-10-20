@@ -7,13 +7,23 @@
 
 #include "Book1.hpp"
 
+Book::Book(){
+    title = "";
+    author = "";
+    year = 0;
+    annotation = "";
+    genre = "";
+    pages = 0;
+    price = 0;
+    
+}
 
-Book ::Book(char title[20], char author[20], int year, char annotation[50], char genre[20], int pages, float price) {
-    *this->title = *title;
-    *this->author = *author;
+Book ::Book(string title, string author, int year, string annotation, string genre, int pages, float price) {
+    this->title = title;
+    this->author = author;
     this->year = year;
-    *this->annotation = *annotation;
-    *this->genre = *genre;
+    this->annotation = annotation;
+    this->genre = genre;
     this->pages = pages;
     this->price = price;
 }

@@ -12,6 +12,7 @@
 		2B4529472AD317FA00E5F1F4 /* Stationery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B4529452AD317FA00E5F1F4 /* Stationery.cpp */; };
 		2B45294A2AD3180900E5F1F4 /* TextBook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B4529482AD3180900E5F1F4 /* TextBook.cpp */; };
 		2B45294C2AD318AE00E5F1F4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B45294B2AD318AE00E5F1F4 /* main.cpp */; };
+		2BDC0D472AE303F5003C38D0 /* Keeper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BDC0D452AE303F5003C38D0 /* Keeper.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +37,8 @@
 		2B4529482AD3180900E5F1F4 /* TextBook.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TextBook.cpp; sourceTree = "<group>"; };
 		2B4529492AD3180900E5F1F4 /* TextBook.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TextBook.hpp; sourceTree = "<group>"; };
 		2B45294B2AD318AE00E5F1F4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2BDC0D452AE303F5003C38D0 /* Keeper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Keeper.cpp; sourceTree = "<group>"; };
+		2BDC0D462AE303F5003C38D0 /* Keeper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Keeper.hpp; sourceTree = "<group>"; };
 		2BFCC8032AD314B20072481D /* TP3sem1lab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TP3sem1lab; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -53,6 +56,8 @@
 		2BFCC7FA2AD314B20072481D = {
 			isa = PBXGroup;
 			children = (
+				2BDC0D452AE303F5003C38D0 /* Keeper.cpp */,
+				2BDC0D462AE303F5003C38D0 /* Keeper.hpp */,
 				2B45294B2AD318AE00E5F1F4 /* main.cpp */,
 				2B4529482AD3180900E5F1F4 /* TextBook.cpp */,
 				2B4529492AD3180900E5F1F4 /* TextBook.hpp */,
@@ -144,6 +149,7 @@
 				2B4529442AD317E300E5F1F4 /* BookShop.cpp in Sources */,
 				2B45294A2AD3180900E5F1F4 /* TextBook.cpp in Sources */,
 				2B4529412AD3179600E5F1F4 /* Book1.cpp in Sources */,
+				2BDC0D472AE303F5003C38D0 /* Keeper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
