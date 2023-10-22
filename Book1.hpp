@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 #include "BookShop.hpp"
+#include <iostream>
 
 class Book : protected BookShop{
 public:

@@ -19,12 +19,12 @@ public:
     Keeper();
     ~Keeper();
     Keeper(T& obj);
-    void Set();//äîáàâëåíèå îáúåêòà
-    void Pop();//óäàëåíèå îáúåêòà
-    void Get();//âûâîä íà ýêðàí
-    void Edit(const int& change);//ðåäàêòèðîâàíèå îáúåêòà
-    void ToFile(std::string& file);//çàïèñü â ôàéë
-    void FromFile(std::string& file);//÷òåíèå èç ôàéëà
+    void Set();
+    void Pop();
+    void Get();
+    void Edit(const int& change);
+    void ToFile(std::string& file);
+    void FromFile(std::string& file);
 
 private:
     T* object;
