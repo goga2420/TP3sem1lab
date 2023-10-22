@@ -21,7 +21,7 @@ void Execute(T& templat, std::string file)
     cout << "3 - Change content"<<endl;
     cout << "4 - Erase content"<<endl;
     cout << "5 - Download content"<<endl;
-    cout << "4 - Upload content"<<endl;
+    cout << "6 - Upload content"<<endl;
     cin>>answer;
     while(answer!=0)
     {
@@ -34,7 +34,7 @@ void Execute(T& templat, std::string file)
                 cout << "3 - Change content"<<endl;
                 cout << "4 - Erase content"<<endl;
                 cout << "5 - Download content"<<endl;
-                cout << "4 - Upload content"<<endl;
+                cout << "6 - Upload content"<<endl;
                 cin>>answer;
             break;
                 
@@ -45,7 +45,7 @@ void Execute(T& templat, std::string file)
                 cout << "3 - Change content"<<endl;
                 cout << "4 - Erase content"<<endl;
                 cout << "5 - Download content"<<endl;
-                cout << "4 - Upload content"<<endl;
+                cout << "6 - Upload content"<<endl;
                 cin>>answer;
             break;
                 
@@ -59,7 +59,7 @@ void Execute(T& templat, std::string file)
                 cout << "3 - Change content"<<endl;
                 cout << "4 - Erase content"<<endl;
                 cout << "5 - Download content"<<endl;
-                cout << "4 - Upload content"<<endl;
+                cout << "6 - Upload content"<<endl;
                 cin>>answer;
                 
         case 4:
@@ -70,7 +70,7 @@ void Execute(T& templat, std::string file)
                 cout << "3 - Change content"<<endl;
                 cout << "4 - Erase content"<<endl;
                 cout << "5 - Download content"<<endl;
-                cout << "4 - Upload content"<<endl;
+                cout << "6 - Upload content"<<endl;
                 cin>>answer;
             break;
            
@@ -81,7 +81,7 @@ void Execute(T& templat, std::string file)
                 cout << "3 - Change content"<<endl;
                 cout << "4 - Erase content"<<endl;
                 cout << "5 - Download content"<<endl;
-                cout << "4 - Upload content"<<endl;
+                cout << "6 - Upload content"<<endl;
                 cin>>answer;
             break;
                 
@@ -92,7 +92,7 @@ void Execute(T& templat, std::string file)
                 cout << "3 - Change content"<<endl;
                 cout << "4 - Erase content"<<endl;
                 cout << "5 - Download content"<<endl;
-                cout << "4 - Upload content"<<endl;
+                cout << "6 - Upload content"<<endl;
                 cin>>answer;
             break;
                 
