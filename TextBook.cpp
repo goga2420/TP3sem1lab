@@ -28,6 +28,9 @@ TextBook::~TextBook()
 {
 
 }
+void TextBook::ClearVirtual() {
+    std::cin >> *this;
+}
 
 TextBook& TextBook :: operator=(TextBook& copy)
 {
@@ -110,18 +113,18 @@ std::ostream& operator<<(std::ostream& out, TextBook& templat)
 
 std::ofstream& operator<<(std::ofstream& fout, TextBook& templat)
 {
-    fout << templat.title << endl;
-    fout << templat.author << endl;
-    fout << templat.year << endl;
-    fout << templat.edu_est << endl;
-    fout << templat.pages << endl;
-    fout << templat.price << endl;
+//    fout << templat.title << endl;
+//    fout << templat.author << endl;
+//    fout << templat.year << endl;
+//    fout << templat.edu_est << endl;
+//    fout << templat.pages << endl;
+//    fout << templat.price << endl;
     return fout;
 }
 std::ifstream& operator>> (std::ifstream& fin, TextBook& templat)
 {
     
-    fin>> templat.title>>templat.author>>templat.year>>templat.edu_est>>templat.pages>>templat.price;
+    //fin>> templat.title>>templat.author>>templat.year>>templat.edu_est>>templat.pages>>templat.price;
     
     return fin;
 }

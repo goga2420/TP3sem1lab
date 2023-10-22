@@ -17,6 +17,7 @@ public:
     TextBook();
     TextBook(TextBook& copy);
     ~TextBook();
+    void ClearVirtual() override;
     friend std::ostream& operator<< (std::ostream& out, TextBook& templat);
     friend std::istream& operator>> (std::istream& in,  TextBook& templat);
     TextBook& operator =(TextBook& copy);

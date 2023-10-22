@@ -80,14 +80,14 @@ std::ostream& operator<<(std::ostream& out, Stationery& templat)
 
 std::ofstream& operator<<(std::ofstream& fout, Stationery& templat)
 {
-    fout << templat.type << std::endl;
-    fout << templat.color << std::endl;
-    fout << templat.purpose << std::endl;
-    fout << templat.price << std::endl;
+//    fout << templat.type << std::endl;
+//    fout << templat.color << std::endl;
+//    fout << templat.purpose << std::endl;
+//    fout << templat.price << std::endl;
     return fout;
 }
 std::ifstream& operator>> (std::ifstream& fin, Stationery& templat)
 {
-    fin >> templat.type >> templat.color >> templat.purpose >> templat.price;
+    //fin >> templat.type >> templat.color >> templat.purpose >> templat.price;
     return fin;
 }

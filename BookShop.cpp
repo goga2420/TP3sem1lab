@@ -8,6 +8,11 @@
 #include "BookShop.hpp"
 
 
-void BookShop::SetItems(){
-    cin >> *this;
+BookShop::BookShop()
+{
+
+}
+BookShop::~BookShop()
+{
+
 }

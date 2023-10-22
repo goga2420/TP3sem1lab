@@ -7,32 +7,63 @@
 
 #include <iostream>
 #include "Book1.hpp"
+#include "TextBook.hpp"
+#include "Stationery.hpp"
+#include "executer.cpp"
 #include "Keeper.hpp"
 
 using namespace std;
 
 int main() {
     
-    Book book;
+    Keeper<Book> book;
+    Keeper<TextBook> textbook;
+    Keeper<Stationery> stationery;
     
-    cout<<"Что будем делать?"<<endl;
-    cout<<"1 - Добавить книгу"<<endl;
-    cout<<"2 - Изменить книгу"<<endl;
-    cout<<"3 - Удалить книгу"<<endl;
-    cout<<"4 - Добавить учебник"<<endl;
-    cout<<"5 - Изменить учебник"<<endl;
-    cout<<"6 - Удалить учебник"<<endl;
-    cout<<"7 - Добавить канцелярию"<<endl;
-    cout<<"8 - Изменить канцелярию"<<endl;
-    cout<<"9 - Удалить канцелярию"<<endl;
+    cout<<"Options to do in bookshop"<<endl;
+    cout<<"1 - Book section "<<endl;
+    cout<<"2 - TextBook section"<<endl;
+    cout<<"3 - Stationery section"<<endl;
     
     int answer;
     cin >> answer;
-    while(answer !=0)
+    
+    while(answer != 0)
     {
+        system("cls");
         switch (answer) {
             case 1:
-                book.push();
+                Execute(book, "Book.txt");
+                
+                cout<<"Options to do in bookshop"<<endl;
+                cout<<"1 - Book section "<<endl;
+                cout<<"2 - TextBook section"<<endl;
+                cout<<"3 - Stationery section"<<endl;
+                cin >> answer;
+                break;
+                
+            case 2:
+                Execute(textbook, "TextBook.txt");
+                
+                cout<<"Options to do in bookshop"<<endl;
+                cout<<"1 - Book section "<<endl;
+                cout<<"2 - TextBook section"<<endl;
+                cout<<"3 - Stationery section"<<endl;
+                cin >> answer;
+                break;
+                
+            case 3:
+                Execute(stationery, "Stationery.txt");
+                
+                cout<<"Options to do in bookshop"<<endl;
+                cout<<"1 - Book section "<<endl;
+                cout<<"2 - TextBook section"<<endl;
+                cout<<"3 - Stationery section"<<endl;
+                cin >> answer;
+                break;
+                
+            case 0:
+                cout << "Work is over\n";
                 break;
                 
             default:
