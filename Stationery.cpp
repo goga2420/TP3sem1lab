@@ -54,6 +54,7 @@ std::istream& operator>>(std::istream& in, Stationery& templat)
     std::getline(std::cin, templat.purpose);
     
     int price;
+    std::cout << "Price: ";
     cin>>price;
     if(price > 0)
     {
@@ -91,3 +92,4 @@ std::ifstream& operator>> (std::ifstream& fin, Stationery& templat)
     fin >> templat.type >> templat.color >> templat.purpose >> templat.price;
     return fin;
 }
+

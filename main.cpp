@@ -33,7 +33,7 @@ int main() {
         system("cls");
         switch (answer) {
             case 1:
-                Execute(book, "Book.txt");
+                Execute(book, "/Users/georgijzukov/Desktop/ГУАП/ТП/TP3sem1lab/Book.txt");
                 
                 cout<<"Options to do in bookshop"<<endl;
                 cout<<"1 - Book section "<<endl;
@@ -43,7 +43,7 @@ int main() {
                 break;
                 
             case 2:
-                Execute(textbook, "TextBook.txt");
+                Execute(textbook, "/Users/georgijzukov/Desktop/ГУАП/ТП/TP3sem1lab/TextBook.txt");
                 
                 cout<<"Options to do in bookshop"<<endl;
                 cout<<"1 - Book section "<<endl;
@@ -53,7 +53,7 @@ int main() {
                 break;
                 
             case 3:
-                Execute(stationery, "Stationery.txt");
+                Execute(stationery, "/Users/georgijzukov/Desktop/ГУАП/ТП/TP3sem1lab/Stationery.txt");
                 
                 cout<<"Options to do in bookshop"<<endl;
                 cout<<"1 - Book section "<<endl;

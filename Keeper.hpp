@@ -102,6 +102,7 @@ void Keeper<T>::Get()
         {
             //std::exception empty("Object is empty");
             throw std::exception();
+            //throw "Object is empty";
         }
         for (int i = 0; i < size; ++i)
             std::cout << object[i] << std::endl;
@@ -185,3 +186,4 @@ void Keeper<T>::FromFile(std::string& file)
 
 
 #endif /* Keeper_hpp */
+

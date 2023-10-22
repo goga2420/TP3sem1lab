@@ -128,3 +128,4 @@ std::ifstream& operator>> (std::ifstream& fin, TextBook& templat)
     
     return fin;
 }
+

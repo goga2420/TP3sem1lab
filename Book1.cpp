@@ -134,3 +134,4 @@ ifstream& operator>> (ifstream& fin, Book& templat)
     
     return fin;
 }
+
