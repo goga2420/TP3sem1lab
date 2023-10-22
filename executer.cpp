@@ -29,12 +29,24 @@ void Execute(T& templat, std::string file)
         switch (answer) {
         case 1:
             templat.Get();
-            system("pause");
+                cout << "1 - Show content"<<endl;
+                cout << "2 - Add content"<<endl;
+                cout << "3 - Change content"<<endl;
+                cout << "4 - Erase content"<<endl;
+                cout << "5 - Download content"<<endl;
+                cout << "4 - Upload content"<<endl;
+                cin>>answer;
             break;
                 
         case 2:
             templat.Set();
-            system("pause");
+                cout << "1 - Show content"<<endl;
+                cout << "2 - Add content"<<endl;
+                cout << "3 - Change content"<<endl;
+                cout << "4 - Erase content"<<endl;
+                cout << "5 - Download content"<<endl;
+                cout << "4 - Upload content"<<endl;
+                cin>>answer;
             break;
                 
         case 3:
@@ -42,18 +54,46 @@ void Execute(T& templat, std::string file)
             std::cout << "Number of element to change: ";
             std::cin >> number;
             templat.Edit(number);
+                cout << "1 - Show content"<<endl;
+                cout << "2 - Add content"<<endl;
+                cout << "3 - Change content"<<endl;
+                cout << "4 - Erase content"<<endl;
+                cout << "5 - Download content"<<endl;
+                cout << "4 - Upload content"<<endl;
+                cin>>answer;
                 
         case 4:
             templat.Get();
             templat.Pop();
+                cout << "1 - Show content"<<endl;
+                cout << "2 - Add content"<<endl;
+                cout << "3 - Change content"<<endl;
+                cout << "4 - Erase content"<<endl;
+                cout << "5 - Download content"<<endl;
+                cout << "4 - Upload content"<<endl;
+                cin>>answer;
             break;
            
         case 5:
             templat.ToFile(file);
+                cout << "1 - Show content"<<endl;
+                cout << "2 - Add content"<<endl;
+                cout << "3 - Change content"<<endl;
+                cout << "4 - Erase content"<<endl;
+                cout << "5 - Download content"<<endl;
+                cout << "4 - Upload content"<<endl;
+                cin>>answer;
             break;
                 
         case 6:
             templat.FromFile(file);
+                cout << "1 - Show content"<<endl;
+                cout << "2 - Add content"<<endl;
+                cout << "3 - Change content"<<endl;
+                cout << "4 - Erase content"<<endl;
+                cout << "5 - Download content"<<endl;
+                cout << "4 - Upload content"<<endl;
+                cin>>answer;
             break;
                 
         case 0:
