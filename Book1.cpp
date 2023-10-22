@@ -118,19 +118,19 @@ std::ostream& operator<<(std::ostream& out, Book& templat)
 
 ofstream& operator<<(ofstream& fout, Book& templat)
 {
-//    fout << templat.title << endl;
-//    fout << templat.author << endl;
-//    fout << templat.year << endl;
-//    fout << templat.annotation << endl;
-//    fout << templat.genre << endl;
-//    fout << templat.pages << endl;
-//    fout << templat.price << endl;
+    fout << templat.title << endl;
+    fout << templat.author << endl;
+    fout << templat.year << endl;
+    fout << templat.annotation << endl;
+    fout << templat.genre << endl;
+    fout << templat.pages << endl;
+    fout << templat.price << endl;
     return fout;
 }
 ifstream& operator>> (ifstream& fin, Book& templat)
 {
     
-    //fin>> templat.title>>templat.author>>templat.year>>templat.annotation>>templat.genre>>templat.pages>>templat.price;
+    fin>> templat.title>>templat.author>>templat.year>>templat.annotation>>templat.genre>>templat.pages>>templat.price;
     
     return fin;
 }
