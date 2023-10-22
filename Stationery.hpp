@@ -9,13 +9,24 @@
 #define Stationery_hpp
 
 #include <stdio.h>
+#include "BookShop.hpp"
+
 class Stationery : protected BookShop{
 public:
+   
+    Stationery();
+    ~Stationery();
+    Stationery(Stationery& copy);
+    void ClearVirtual() override;
+    friend std::ostream& operator<< (std::ostream& out, Stationery& templat);
+    friend std::istream& operator>> (std::istream& in, Stationery& templat);
+    Stationery& operator =(Stationery& copy);
+    friend std::ofstream& operator<< (std::ofstream& fout, Stationery& templat);
+    friend std::ifstream& operator>> (std::ifstream& fin, Stationery& templat);
+    private:
     string type;
     string color;
     string purpose;
     float price;
-
-    Stationery(string type, string color, string purpose, float price);
 };
 #endif /* Stationery_hpp */

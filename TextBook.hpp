@@ -9,17 +9,28 @@
 #define TextBook_hpp
 
 #include <stdio.h>
+#include "BookShop.hpp"
+
 class TextBook : protected BookShop{
 public:
+    
+    TextBook();
+    TextBook(TextBook& copy);
+    ~TextBook();
+    friend std::ostream& operator<< (std::ostream& out, TextBook& templat);
+    friend std::istream& operator>> (std::istream& in,  TextBook& templat);
+    TextBook& operator =(TextBook& copy);
+    friend std::ofstream& operator<< (std::ofstream& fout, TextBook& templat);
+    friend std::ifstream& operator>> (std::ifstream& fin, TextBook& templat);
+    
+private:
     string title;
     string author;
     int year;
     string edu_est;
-    int studyYear;
+    int study_year;
     int pages;
-    float cost;
+    float price;
 
-    TextBook(string title, string author, int year, string edu_est, int studyYear, int pages, float cost);
-    ~TextBook();
 };
 #endif /* TextBook_hpp */
