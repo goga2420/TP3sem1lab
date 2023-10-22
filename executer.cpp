@@ -61,6 +61,7 @@ void Execute(T& templat, std::string file)
                 cout << "5 - Download content"<<endl;
                 cout << "6 - Upload content"<<endl;
                 cin>>answer;
+                break;
                 
         case 4:
             templat.Get();
