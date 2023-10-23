@@ -22,6 +22,13 @@ void Stationery::ClearVirtual() {
     std::cin >> *this;
 }
 
+Stationery::Stationery(string type, string color, string purpose, float price){
+    this->type = type;
+    this->color = color;
+    this->purpose = purpose;
+    this->price = price;
+}
+
 Stationery::Stationery(Stationery& copy)
 {
     *this = copy;

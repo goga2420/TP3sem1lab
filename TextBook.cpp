@@ -19,6 +19,16 @@ TextBook::TextBook(){
     
 }
 
+TextBook::TextBook(string title, string author, int year, string edu_est, int study_year, int pages, float price){
+    this->title = title;
+    this->author = author;
+    this->year = year;
+    this->edu_est = edu_est;
+    this->study_year = study_year;
+    this->pages = pages;
+    this->price = price;
+}
+
 TextBook ::TextBook(TextBook& copy) {
     *this = copy;
     

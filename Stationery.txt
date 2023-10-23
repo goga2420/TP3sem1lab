@@ -1,4 +1,0 @@
-pencil
-blue
-write
-50

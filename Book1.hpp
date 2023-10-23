@@ -17,7 +17,7 @@ class Book : protected BookShop{
 public:
     
     Book();
-    //Book("маугли")
+    Book(string title, string author, int year, string annotation, string genre, int pages, float price);
     Book(Book& copy);
     ~Book();
     void ClearVirtual() override;

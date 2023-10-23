@@ -19,6 +19,16 @@ Book::Book(){
     
 }
 
+Book::Book(string title, string author, int year, string annotation, string genre, int pages, float price){
+    this->title = title;
+    this->author = author;
+    this->year = year;
+    this->annotation = annotation;
+    this->genre = genre;
+    this->pages = pages;
+    this->price = price;
+}
+
 Book ::Book(Book& copy) {
     *this = copy;
     

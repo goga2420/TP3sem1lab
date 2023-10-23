@@ -15,6 +15,7 @@ class TextBook : protected BookShop{
 public:
     
     TextBook();
+    TextBook(string title, string author, int year, string edu_est, int study_year, int pages, float price);
     TextBook(TextBook& copy);
     ~TextBook();
     void ClearVirtual() override;
